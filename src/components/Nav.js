@@ -2,8 +2,7 @@ import React from "react";
 
 const Nav = (props) => {
     const { pages = [], current, handlePageChange } = props;
-    // const pageArray = ["About", "Portfolio", "Resume", "Contact"];
-
+    
     return(
         <ul className="nav nav-pages">
             {pages.map((page) => (

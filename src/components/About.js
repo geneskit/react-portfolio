@@ -3,7 +3,7 @@ import portrait from '../assets/images/DSC_9363CROPPED.jpg';
 const About = () => (
     <div className="text-center" style={{ backgroundColor: "#3C3D35", color: "9C9A98", padding: ""}}>
         <h1 id="about">About the Developer</h1>
-        <img src={portrait} style={{width: "50%", padding: "35px" }}/>
+        <img src={portrait} alt="The developer" style={{ width: "50%", padding: "35px" }}/>
         <p style={{fontSize: "25px"}}>
             Welcome to my portfolio!
         </p>

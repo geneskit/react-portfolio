@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Nav from '../components/Nav';
 import About from "../components/About";
 import Footer from "../components/Footer.js";
-
 import Portfolio from "../components/Portfolio.js";
 import Contact from "../components/Contact.js";
 import Resume from "../components/Resume.js";
@@ -38,7 +37,7 @@ const Header = () => {
             </div>
             <main>
                 <div>
-                    {render(curr)}
+                    { render(curr) }
                 </div>
             </main>
             <Footer></Footer>
